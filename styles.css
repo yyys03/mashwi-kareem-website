@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  direction: rtl;
+  background-color: #f4f4f4; /* A soft light gray to contrast the burnt orange */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d35400; /* Burnt orange from the logo */
+  padding: 10px;
+}
+
+header .logo img {
+  width: 120px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #ffffff; /* White text for good contrast against burnt orange */
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #f9dd9f; /* Light beige for a soft hover effect */
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #d35400; /* Burnt orange from the logo */
+}
+
+p {
+  color: #6b0000; /* Dark red-brown for body text */
+}
+
+footer {
+  background-color: #d35400; /* Keep footer consistent with header */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.menu-item {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.menu-item img {
+  width: 150px; /* Adjust the width as per your design */
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.menu-item p {
+  font-size: 18px;
+  color: #6b0000;
+}
+.buffet-service {
+  background-color: #f4c7a8;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.buffet-service h2 {
+  color: #d35400;
+  font-size: 24px;
+}
+
+.buffet-service p {
+  font-size: 18px;
+  color: #4b2e2a;
+}
